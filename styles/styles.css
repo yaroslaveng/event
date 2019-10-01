@@ -1,0 +1,91 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+.ba-hero{
+    background-color: black;
+    background-image: url(../images/hero.jpg);
+    background-size: cover;
+    background-position: center center;
+    min-height: 100vh;
+    text-align: center;
+    color: white;
+    padding-top: 33.75vh;
+}
+
+.container{
+    width: 100%;
+    max-width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+.ba-hero__title{
+    font-size: 3.75rem;
+    letter-spacing: 0;
+    margin-bottom: 0;
+}
+.ba-hero__text{
+    font-size: 1.875rem;
+    margin-bottom: 2.333em;
+}
+.ba-header-wrapper{
+    display: flex;
+    justify-content: space-between;
+}
+.ba-logo__link{
+    color: white;
+}
+.ba-header{
+    position: absolute; 
+    width: 100%;
+    left: 0;
+    top: 0;
+
+}
+.ba-menu{
+    display: flex;
+    justify-content: space-between;
+}
+.ba-menu__link{
+    color: white;
+}
+.ba-menu__link:hover,
+.ba-menu__link:focus{
+    color: #e71cb4;
+}
+.ba-btn{
+    display: inline-block;
+    border: 2px solid rgb(221, 221, 221);
+    background-color: transparent;
+    border-radius: 16px;
+    height: 50px;
+    line-height: 50px;
+    padding: 0 21px;
+    color: white;
+    text-decoration: none;
+}
+.ba-btn:hover,
+.ba-btn:focus{
+    background-color: white;
+    color: black;
+}
+.ba-menu__link:active{
+    color: pink
+}
+.ba-btn:active{
+    opacity: 0.8;
+}
+.ba-menu__link{
+    color: white;
+    transition: .2s;
+}
+.ba-menu{
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+}
+.ba-menu__item + .ba-menu__item{
+    margin-left: 30px;
+}
